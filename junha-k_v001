@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+   <title>다샤 타란</title>
+  </head>
+  
+  <body>
+  
+    <a href="https://han.gl/AEVEW">
+      <p title="다샤 타란 유튜브 채널로 이동합니다." style="text-align:center; font-family:'Black Han Sans', sans-serif; font-size:40px; background-color:gray"> 다샤 타란
+     </p>
+   </a>
+   <div style="text-align:center;">
+      <img src="https://han.gl/xKjvK" border=0 width="600" alt="다샤 타란">
+   </div>
+    
+  </body>
+  
+</html>
