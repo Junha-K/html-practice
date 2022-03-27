@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML 이미지</title>
+    <title>Neuroanatomy Images</title>
     <style>
       body {
         background-color: beige;
       }
+      ul {
+        list-style-type:none;
+        margine:0;
+        padding:0;
+        overflow:hidden;
+        background-color:#333333;
+      }
       
-      p {
-        font-family: courier;
-      } 
+      li a {
+        display:block;
+        color:white;
+        text-align:center;
+        padding:16px;
+        text-decoration:none;
+      }
       
+      li a:hover {
+        background-color:#111111;
+      }
+      
+      li a:active {
+        background-color:#222222;
+      }
+          
       a:link, a:visited {
         background-color: #f44336;
         color: white;
@@ -31,14 +50,11 @@
   
   <body>
     
-    <p><a href = "https://prod-images-static.radiopaedia.org/images/29107304/25c796d915db2b991d7776d825b6df_big_gallery.jpeg" target = "_blank">Vascular anatomy</a>
-    </p>
-    
-    <p><a href = "https://teachmeanatomy.info/wp-content/uploads/Brain-stem-1024x928.png" target = "_blank">Cranial nerve</a>
-    </p>
-    
-    <p><a href = "https://cdn-acgla.nitrocdn.com/bvIhcJyiWKFqlMsfAAXRLitDZjWdRlLX/assets/static/optimized/rev-5131b73/wp-content/uploads/2020/05/trigeminalbranches.png" target = "_blank">Trigeminal branches</a>
-    </p>
+    <ul>
+      <li><a href = "https://prod-images-static.radiopaedia.org/images/29107304/25c796d915db2b991d7776d825b6df_big_gallery.jpeg" target = "_blank">Vascular anatomy</a></li>
+      <li><a href = "https://teachmeanatomy.info/wp-content/uploads/Brain-stem-1024x928.png" target = "_blank">Cranial nerve</a></li>
+      <li><a href = "https://cdn-acgla.nitrocdn.com/bvIhcJyiWKFqlMsfAAXRLitDZjWdRlLX/assets/static/optimized/rev-5131b73/wp-content/uploads/2020/05/trigeminalbranches.png" target = "_blank">Trigeminal branches</a></li>
+    </ul>
     
   </body>
 </html>
