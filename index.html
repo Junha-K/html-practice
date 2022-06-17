@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Collections</title>
+</head>
+<body>
+  <h1>Collections</h1>
+  <style>
+    .frame{
+      width: 15em;
+      border: 1px solid #333;
+      box-shadow: 8px 8px 5px #444;
+      padding: 8px 12px;
+      background-color: olive;
+    }
+    .expanded{
+      width: 15em;
+      border: 1px solid #333;
+      box-shadow: 8px 8px 5px #444;
+      padding: 8px 12px;
+      background-color: yellow;
+    }
+  </style>
+  <script>
+    function FrameHandler(self){
+        if(self.className === 'frame'){
+            self.className = 'expanded';
+        }else {
+            self.className = 'frame';
+        }
+  </script>
+  <div class = "frame" onclick = "FrameHandler(this);">
+    <img src = "collection1.jpg" alt = "collection 1">
+    <div>
+      This is Collection 1
+    </div>
+  </div>
+</body>
+</html>
