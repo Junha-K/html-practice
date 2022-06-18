@@ -1,0 +1,21 @@
+    .frame{
+    width: 15em;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background-color: olive;
+    }
+    .expanded{
+    width: 80%;
+    height: 30rem;
+    margin: auto;
+    border: 1px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 8px 12px;
+    background-color: olive;      
+    }
+    h1{
+    text-align:center; margin: 2rem; font-size: 3em;
+    }
