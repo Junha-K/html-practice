@@ -19,7 +19,7 @@ body{
 .expanded{
 	border-radius: 4px;
 	width: 80%;
-	height: 30rem;
+	height: auto;
 	margin: auto;
 	border: 1px solid #333;
 	padding: 8px 12px;
@@ -28,6 +28,11 @@ body{
 	display: grid;
 	grid-template-columns: 25% 1fr;
 }
+
+.expanded:hover{
+	box-shadow: 8px 8px 5px #444;
+}
+
 #Explanation1{
 	grid-column-start:2;
 	grid-row-end:2;
@@ -41,9 +46,7 @@ body{
 }
 
 
-.expanded:hover{
-	box-shadow: 8px 8px 5px #444;
-}
+
 
 h1{
 	text-align:center; margin: 2rem; font-size: 2em;
