@@ -13,7 +13,7 @@ function AddorHideLink(self){
 		for(i=0; i<Collection1REF.length; i++){
 			let a = document.createElement('a');
 			let linktext = document.createTextNode(Collection1Text[i]);
-			a.title = "moving to"+Collection1Text[i];
+			a.title = "moving to "+Collection1Text[i];
 			a.href = Collection1REF[i];
 			a.appendChild(linktext);
 			let alist = document.createElement('li');
