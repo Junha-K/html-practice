@@ -1,3 +1,5 @@
+
+
 function FrameHandler(self){
 	if(self.className === 'frame'){
 		self.className = 'expanded';
@@ -5,9 +7,8 @@ function FrameHandler(self){
 		self.className = 'frame';
 	}
 }
-
-const Collection1REF = ['https://hunkim.github.io/ml/','https://url.kr/px3s2o'];
-const Collection1Text = ['모두를 위한 머신러닝/딥러닝 강의','노벨연구소 선정 역대 최고의 책'];
+const Collection1REF = ['https://hunkim.github.io/ml/','https://url.kr/px3s2o','https://opentutorials.org/course/1'];
+const Collection1Text = ['모두를 위한 머신러닝/딥러닝 강의','노벨연구소 선정 역대 최고의 책','생활코딩'];
 
 function AddorHideLink(self){
 	if(self.className === 'expanded'){
