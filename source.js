@@ -1,5 +1,3 @@
-
-
 function FrameHandler(self){
 	if(self.className === 'frame'){
 		self.className = 'expanded';
