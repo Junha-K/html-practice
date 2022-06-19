@@ -13,14 +13,7 @@ body{
 }
 
 .frame:hover{
-	border-radius: 4px;
-	width: 50%;
-	margin: auto;
-	text-align: center;
-	border: 1px solid #333;
 	box-shadow: 8px 8px 5px #444;
-	padding: 8px 12px;
-	background-color: olive;
 }
 
 .expanded{
@@ -31,17 +24,25 @@ body{
 	border: 1px solid #333;
 	padding: 8px 12px;
 	background-color: olive;
+	
+	display: grid;
+	grid-template-columns: 25% 1fr;
+}
+#Explanation1{
+	grid-column-start:2;
+	grid-row-end:2;
+	
 }
 
+#List1{
+	grid-column-start:2;
+	grid-row-end:2;
+	
+}
+
+
 .expanded:hover{
-	border-radius: 4px;
-	width: 80%;
-	height: 30rem;
-	margin: auto;
-	border: 1px solid #333;
 	box-shadow: 8px 8px 5px #444;
-	padding: 8px 12px;
-	background-color: olive;
 }
 
 h1{
@@ -58,8 +59,24 @@ img{
 }
 
 .expanded img{
-	max-width:25%;
-	max-height:25%;
 	margin-left: 0px;
 	margin-top: 4px;
 }
+ol{
+	margin-top: 30px;
+}
+
+li{
+	padding-left: 12px;
+	cursor: pointer;
+	color: #49262a;
+}
+
+a{
+	color: 
+}
+
+#Collection1.expanded > #Explanation1{
+	padding-left: 20px;
+}
+
