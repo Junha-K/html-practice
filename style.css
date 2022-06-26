@@ -16,6 +16,10 @@ body{
 	box-shadow: 8px 8px 5px #444;
 }
 
+.frame:active{
+	width: 55%;
+}
+
 .expanded{
 	border-radius: 4px;
 	width: 80%;
